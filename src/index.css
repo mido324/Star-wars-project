@@ -14,7 +14,8 @@ body {
  }
 
 .char-name {
-  color: rgb(24, 224, 58);
+  color: rgb(4, 216, 4);
+   
 
 }
 .jumbotron {
@@ -25,7 +26,16 @@ body {
 }
 .btn {
   margin: 5px;
+ 
 }
 .fav {
   color: lightblue;
+  list-style-type: none;
+  
+}
+.footer {
+  background-color: rgb(131, 228, 155);
+  text-align: left;
+
+
 }

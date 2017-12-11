@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import List from './List';
 import './App.css';
 import axios from 'axios';
+import Footer from './Footer';
 
 class App extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class App extends Component {
     this.people = this.getChar.bind(this);
   }
   getChar() {
-    
+
     return axios.get('https://swapi.co/api/people').then((res) => {
       console.log(res.data.results);
       this.setState({people: res.data.results})
@@ -33,6 +34,7 @@ class App extends Component {
      
 
      <List people={people}/>
+     <Footer />
         
       </div>
     );
