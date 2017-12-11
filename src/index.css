@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(180, 175, 175);
+  background-color: rgb(214, 203, 203);
 }
 
 
@@ -15,5 +15,5 @@ ul {
   color: rgb(143, 51, 59);
 }
 .jumbotron {
-  background-color: rgb(83, 74, 74);
+  background-color: rgb(147, 176, 229);
 }
