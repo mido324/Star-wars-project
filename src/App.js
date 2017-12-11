@@ -14,6 +14,7 @@ class App extends Component {
     this.people = this.getChar.bind(this);
   }
   getChar() {
+    
     return axios.get('https://swapi.co/api/people').then((res) => {
       console.log(res.data.results);
       this.setState({people: res.data.results})

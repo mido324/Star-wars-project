@@ -3,20 +3,29 @@ body {
   padding: 0;
   font-family: sans-serif;
   background-color: rgb(243, 149, 118);
+  background: url("https://images.unsplash.com/photo-1481241857164-e8483bce922d?auto=format&fit=crop&w=1506&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat;
+  background-size: cover;
+  
 }
 
-
-ul {
+ ul {
   list-style-type: none;
-  color: rgb(218, 17, 174);
+  color: rgb(207, 27, 207); 
+ }
 
-}
 .char-name {
-  color: rgb(43, 7, 250);
+  color: rgb(24, 224, 58);
+
 }
 .jumbotron {
-  background-color: rgb(54, 147, 163);
+  /* background-color: rgb(203, 220, 223); */
+  background: url("https://cdn.pixabay.com/photo/2017/11/01/14/24/star-wars-2908139_960_720.jpg") no-repeat  center;
+  background-size: cover;
+  text-align: center;
 }
-.container {
-  /* background-color: orangered; */
+.btn {
+  margin: 5px;
+}
+.fav {
+  color: lightblue;
 }

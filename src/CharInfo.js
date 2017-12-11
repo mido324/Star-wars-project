@@ -23,7 +23,7 @@ this.setState({expanded: !this.state.expanded})
         }
         return (
             <div className="user-details">
-            <p className="btn btn-danger" onClick={this.close}>Hide info</p>
+            <button className="btn btn-danger" onClick={this.close}>Hide info</button>
             <ul>
             <li><h2>Gender: {info.gender}</h2></li>
             <li><h2>Birthday: {info.birth_year}</h2></li>
