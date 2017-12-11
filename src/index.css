@@ -2,18 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: rgb(214, 203, 203);
+  background-color: rgb(243, 149, 118);
 }
 
 
 ul {
   list-style-type: none;
-  color: rgb(126, 17, 228);
+  color: rgb(218, 17, 174);
 
 }
 .char-name {
-  color: rgb(143, 51, 59);
+  color: rgb(43, 7, 250);
 }
 .jumbotron {
-  background-color: rgb(147, 176, 229);
+  background-color: rgb(54, 147, 163);
+}
+.container {
+  /* background-color: orangered; */
 }
