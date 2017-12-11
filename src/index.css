@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(180, 175, 175);
+}
+
+
+ul {
+  list-style-type: none;
+  color: rgb(126, 17, 228);
+
+}
+.char-name {
+  color: rgb(143, 51, 59);
+}
+.jumbotron {
+  background-color: rgb(83, 74, 74);
+}
